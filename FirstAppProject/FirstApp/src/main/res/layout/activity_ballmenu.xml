@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF8C5E">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Radius"
+        android:textSize="48dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+    />
+
+    <EditText
+        android:id="@+id/x1"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginTop="50dp"
+        android:background="#FFFFFF"
+        android:hint="@string/ballmenuhint1"
+        android:paddingLeft="50dp"
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speed"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="48dp"
+        android:layout_marginTop="@dimen/abc_action_bar_default_height"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+    />
+
+    <EditText
+        android:id="@+id/Scale"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginTop="50dp"
+        android:background="#FFFFFF"
+        android:paddingLeft="50dp"
+        android:hint="@string/ballmenuhint2"/>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:textAlignment="center"
+        android:text="Start"
+        android:background="#A3DAFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+    <!-- 
+    <TextView 
+        android:id="@+id/tv4" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="x2" 
+        android:textAppearance="?android:attr/textAppearanceMedium" /> 
+   
+    <EditText 
+        android:id="@+id/x2" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:ems="10" 
+        android:inputType="number" /> 
+    
+    <TextView 
+        android:id="@+id/tv5" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="y2" 
+        android:textAppearance="?android:attr/textAppearanceMedium" /> 
+  
+    <EditText 
+        android:id="@+id/y2" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:ems="10" 
+        android:inputType="number" />   
+    -->
+
+    <TextView
+        android:id="@+id/bounces"
+        android:layout_width="260dp"
+        android:layout_height="168dp"
+        android:layout_weight="0.55" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:visibility="invisible"/>
+
+</LinearLayout>

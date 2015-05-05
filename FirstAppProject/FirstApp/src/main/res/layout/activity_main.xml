@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#7D0A8C"
+    android:baselineAligned="false"
+    android:measureWithLargestChild="false"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_main"
+        android:focusable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Game"
+        android:id="@+id/button_play_game"
+        android:background="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/abc_action_bar_default_height"
+        android:textSize="48dp"
+        android:textStyle="bold"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:onClick="startGame"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Score"
+        android:id="@+id/button_high_score"
+        android:background="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/abc_action_bar_default_height"
+        android:textSize="48dp"
+        android:textStyle="bold"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"/>
+        <!--android:onClick="displayHighScore"-->
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:textStyle="bold"
+        android:id="@+id/button_help"
+        android:background="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/abc_action_bar_default_height"
+        android:textSize="48dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:onClick="startHelp"
+        />
+        <!--android:onClick="displayHelp"-->
+
+</LinearLayout>

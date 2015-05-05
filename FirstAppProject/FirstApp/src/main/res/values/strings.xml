@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Go Go Jolani</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="signin_title">Sign In</string>
+    <string name="hint_text">Please Enter Your Login Name Here</string>
+    <string name="button_send">Send</string>
+    <string name="title_activity_game_scene">Main Menu</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_gfxsurface">Go Go Jolani</string>
+    <string name="title_activity_ball_menu">Go Go Jolani</string>
+    <string name="ballmenuhint1">Please Enter Ball Radius Here</string>
+    <string name="ballmenuhint2">Please Enter Ball Speed Here</string>
+    <string name="title_activity_action_bar_tabs_pager">ActionBarTabsPager</string>
+    <string name="title_activity_view_pager">ViewPagerActivity</string>
+
+</resources>
